@@ -77,14 +77,14 @@ int main()
 //winner overall game
 	if(computer_score>user_score)
 	{
-		cout<<":: Computer wins the Game ::"<< endl;
+		cout<<"\nComputer wins the Game with "<<computer_score<<"/"<<user_score<< endl;
 	}
 	else if(user_score>computer_score)
 	{
-		cout<<":: congratulation "<<name<<" wins the Game ::"<< endl;
+		cout<<"\ncongratulation "<<name<<" wins the Game with "<<user_score<<"/"<<computer_score<< endl;
 	}
 	else{
-		cout<<":: Match was tied ::"<< endl;
+		cout<<"\nMatch was tied "<<user_score<<"/"<<computer_choice<< endl;
 	}
 	return 0;
 }
